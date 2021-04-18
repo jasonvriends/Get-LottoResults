@@ -292,8 +292,7 @@ function Get-Atlantic49 {
 
 }
 
-# Update numbers
-
+# Main Script
 Get-Super7
 Get-Lotto649
 Get-LottoMax
