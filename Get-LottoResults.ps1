@@ -33,7 +33,7 @@ $atlantic49CSV = "$scriptPath\Outputs\Atlantic49.csv"
 if (!(Test-Path $scriptPath\Outputs))
 {
     Write-Host "Creating the Outputs folder."
-    New-Item -itemType Directory -Path $scriptPath -Name outputs
+    New-Item -itemType Directory -Path $scriptPath -Name Outputs
 }
 
 # Get-Results function
